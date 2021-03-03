@@ -1,0 +1,26 @@
+{
+  "MONTHS": {
+      "JANUARY": "一月",
+      "FEBRUARY": "二月",
+      "MARCH": "三月",
+      "APRIL": "四月",
+      "MAY": "五月",
+      "JUNE": "六月",
+      "JULY": "七月",
+      "AUGUST": "八月",
+      "SEPTEMBER": "九月",
+      "OCTOBER": "十月",
+      "NOVEMBER": "十一月",
+      "DECEMBER": "十二月"
+  },
+  "DAYS": {
+      "MONDAY": "月曜日",
+      "TUESDAY": "火曜日",
+      "WEDNESDAY": "水曜日",
+      "THURSDAY": "木曜日",
+      "FRIDAY": "金曜日",
+      "SATURDAY": "土曜日",
+      "SUNDAY": "日曜日"
+
+  }
+}
