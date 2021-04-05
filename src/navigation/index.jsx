@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, Text } from 'react-native'
 
-const App = () =>{
+const AppNavigator = () =>{
     return (
         <View>
             <Text>App index</Text>
@@ -9,4 +9,4 @@ const App = () =>{
     )
 }
 
-export default App;
+export default AppNavigator;

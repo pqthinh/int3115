@@ -1,10 +1,19 @@
-import React, { createContext, useState } from "react";
+import React, { createContext, useState, useEffect } from "react";
 import { View, StyleSheet, ActivityIndicator } from "react-native";
 
 export const LoadingContext = createContext({});
 
 const LoadingProvider = ({ children }) => {
   const [showLoading, setLoading] = useState(false);
+
+  useEffect(() => {
+    if(showLoading) {
+      setTimeout(
+        () => setLoading(false),
+        10000
+      );
+    }
+  }, [showLoading]);
 
   const renderLoadingView = () => {
     if (!showLoading) return null;
